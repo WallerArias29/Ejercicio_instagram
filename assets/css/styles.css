@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+header{
+    border-bottom: 1px solid rgb(206, 206, 206);
+    background-color: white;
+}
+
+.div-header{
+    display:flex;
+    margin-left: 25.4%;
+    margin-right: 15%;
+    justify-content: space-between;
+    height: 54px;
+    align-items: center;
+    background-color: white;
+}
+
+.div-logo{
+    width: 360px;
+    height: 36px;
+    padding-left: 5px;
+    
+}
+
+.div-input{
+    width: 215px;
+    height: 28px;
+    display:flex;
+    align-items: center;
+}
+
+.logosearch{
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    margin-left: 70px;
+}
+
+.lupa{
+    background-image: url(../img/Iconolupa.png);
+    width: 12px;
+    height: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.input_global{
+    width: 215px;
+    height: 28px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border-radius: 3px;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 3px 10px 3px 26px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.div-logo-img{
+    width: 103px;
+    height: 29px;
+    margin-top: 7px;
+}
+
+.img-user_1{
+    width: 22px;
+    height: 22px;
+}
+
+.img-user{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.ul-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 360px;
+    height: 23px;
+    align-items: center;
+    align-content: center;
+    margin-right: 210px;
+    
+}
+
+.ul-header li{
+    list-style: none;
+    margin-left: 22px;
+    padding-left:3px;
+}
+
+.ul-header li a i{
+    color: black;
+    width: 22px;
+    height: 22px;
+    font-size: 24px;
+}
+
+.main{
+    display: block;
+}
+
+.div-main{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 975px;
+    height: 30vh;
+    padding-top: 30px;
+    margin-bottom: 44px;
+}
+
+.div-logo-perfil{
+    display: flex;
+    justify-content: center;
+    width: 291.67px;
+    height: 222px;
+    margin-right: 70px;
+    padding-top: 3px;
+    margin-bottom: 44px;
+}
+.logo-perfil{
+    border-radius: 100%;
+    border: 1px solid rgb(0, 81, 255);
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+}
+
+.div-text-info{
+    width: 68%;
+    height: 222px;
+    margin-bottom: 44px;
+}
+.div-info{
+    display: flex;
+    margin-bottom: 20px;   
+}
+.div-info h2{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.verificado{
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.btn_msj{
+    width: 18%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(248, 248, 248);
+    margin-left: 20px;
+    margin-right: 8px;   
+}
+
+.btn_user_verify{
+    width: 74px;
+    height: 30px;
+    align-content: center;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(248, 248, 248);
+    margin-right: 8px;
+}
+
+.btn_user_slide{
+    width: 34px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(248, 248, 248);
+}
+
+.div-info p{
+    width: 40px;
+    height: 30px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+.perfil-info{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.perfil-info p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+
+.info_perfil{
+    width: 613.33px;
+    height: 124px;
+}
+
+.info_perfil h1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info_perfil p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.info_perfil a{
+    color: #053b6d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.info_perfil_2{
+    width: 613.33px;
+    height: 14px;
+    margin-top: 14px;
+}
+
+.texto1_perfil_2{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.texto2_perfil_2{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(150, 149, 149);
+}
+
+/* aca empieza los destacados */
+
+.destacados{
+    width: 935px;
+    height: 130px;
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+    margin-right: 20%;
+    
+}
+
+.ul_destacados{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.img_destacados{
+    width: 125px;
+    height: 130px;
+    align-content: center;
+}
+
+.img_destacados img{
+    border-radius: 100%;
+    width: 77px;
+    height: 77px;
+}
+
+.img_destacados p{
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 500px);
+    grid-column-gap: 100px;
+    grid-row-gap: 50px ;
+}
+
+/* aca empieza EL MENU */
+
+.menu_instagram{
+    width: 935px;
+    height: 53px;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ul_menu_instagram{
+    display: flex;
+    width: 935px;
+    height: 53px;
+    justify-content: center;
+    border-top: 1px solid rgb(204, 204, 204);
+    padding-top: 15px;
+    padding-bottom: 10px;   
+}
+
+.img_menu_instagram{
+    list-style: none;
+    margin-right: 60px;
+}
+.img_menu_instagram a{
+    display: flex;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+}
+
+.img_menu_instagram a:hover{
+    color: rgb(38,38, 38);
+}
+
+.img_menu_instagram a img{
+    width: 12px;
+    height: 12px;
+}
+
+.img_menu_instagram a p{
+    margin-left: 6px;
+}
+
+/* aca empieza la grid de publicaciones */
+
+.grid_publicaciones{
+    width: 935px;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: grid;
+    grid-template-columns: repeat(3, 293px);
+    grid-template-rows: repeat(3, 293px);
+    grid-column-gap:28px;
+    grid-row-gap:28px;
+
+}
+
+.line1{
+    width: 293px;
+    height: 293px;
+    display: flex;
+    position: relative;
+}
+
+.line1 a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+} 
+
+.line1 img{
+    width: 293px;
+    height: 293px;
+    display: block;
+}
+
+.overlay_img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.3);
+    flex-direction: row; 
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlay_img:hover{
+    opacity: 1;
+}
+
+.container_hover1{
+    width: 70px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 15px;
+    margin-left: 12px;
+
+}
+
+
+.container_hover1 i{
+    display: flex;
+    padding-right: 5px;
+}
+
+.container_hover2{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.container_hover2 i{
+    display: flex;
+    padding-right: 5px;
+}
+
+.overlay_img h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-right: 100px;
+    
+}
